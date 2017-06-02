@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fotoalbum | Whitney Markov</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans%7CPacifico" rel="stylesheet">
+    <link rel="stylesheet" href="simplelightbox/css/simplelightbox.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <div class="txt-align">
+                <h1 class="title">Fotoalbum.</h1>
+                <input id="text-input" type="text" placeholder="søk">
+            </div>
+        </header>
+        <div class="gallery txt-align constrain">
+            <a href="img/01.jpg"><img src="img/thumbnails/01.jpg" alt="Hay Bales" title="Jeg er glad i høyballer. Tok dette bildet under en kjøretur på landet forbi som kornåkre"></a>
+
+            <a href="img/02.jpg"><img src="img/thumbnails/02.jpg" alt="Lake" title="Innsjøen var blikkstille i dag. Herfra hadde vi en nydelig utsikt over snødekte fjelltopper"></a>
+
+            <a href="img/03.jpg"><img src="img/thumbnails/03.jpg" alt="Canyon" title="Jeg gikk tur til toppen av fjellet og tok dette bildet av dalen og trerene under"></a>
+
+            <a href="img/04.jpg"><img src="img/thumbnails/04.jpg" alt="Iceberg" title="Det var utrolig å se et isfjell så nært, det var kaldt men snødde ikke i dag."></a>
+
+            <a href="img/05.jpg"><img src="img/thumbnails/05.jpg" alt="Desert" title="De røde klippene var nydelig. Det var svært varmt i ørken men vi gikk mye i dalene."></a>
+
+            <a href="img/06.jpg"><img src="img/thumbnails/06.jpg" alt="Fall" title="Høst, jeg elsker det når bladene på trerene skifter farger."></a>
+
+            <a href="img/07.jpg"><img src="img/thumbnails/07.jpg" alt="Plantation" title="Jeg kjørte forbi en plantasje i går, alt er så grønt!"></a>
+
+            <a href="img/08.jpg"><img src="img/thumbnails/08.jpg" alt="Dunes" title="Min sommerferie til Oregon kysten. Jeg elsker sanddyner!"></a>
+
+            <a href="img/09.jpg"><img src="img/thumbnails/09.jpg" alt="Countryside Lane" title="Vi nøt en stille spasertur ute på landsbygden."></a>
+
+            <a href="img/10.jpg"><img src="img/thumbnails/10.jpg" alt="Sunset" title="Solnedgang ved kysten! Himmelen forvandlet seg til en nydelig oransj farge."></a>
+
+            <a href="img/11.jpg"><img src="img/thumbnails/11.jpg" alt="Cave" title="Hadde en tur i en grotte i dag, utsikten til landskapet under kunne ta pusten fra en."></a>
+
+            <a href="img/12.jpg"><img src="img/thumbnails/12.jpg" alt="Bluebells" title="Jeg gikk gjennom denne engen av blåklokker og fikk en fin utsikt av det snødekte fjellet før tåken kom."></a>
+        </div>
+    </div>
+
+
+    <footer class="txt-align">
+        &copy; Whitney Markov
+    </footer>
+
+    <!--jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="simplelightbox/js/simple-lightbox.min.js"></script>
+    <!--simplelightbox call-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            console.log('jquery is functioning');
+        });
+
+        var $gallery = $('.gallery a').simpleLightbox();
+    </script>
+</body>
+
+</html>
