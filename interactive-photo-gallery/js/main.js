@@ -1,7 +1,7 @@
 //variables for the input fields and the images
 
 var $textInput = $('#text-input');
-var $images = $('img')
+var $images = $('img');
 
 //use keyup event for live feedback and loop
 $textInput.keyup(function(event) {
