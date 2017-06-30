@@ -1,4 +1,4 @@
-# interactive-photo-gallery-project-4
+# fewd-interactive-photo-gallery-project-4
 An interactive photo gallery using JavaScript and jQuery
 
 
